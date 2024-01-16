@@ -4168,7 +4168,7 @@ textarea.form-control-lg {
   --bs-navbar-active-color: rgba(0, 0, 0, 0.9);
   --bs-navbar-brand-padding-y: 0.3125rem;
   --bs-navbar-brand-margin-end: 1rem;
-  --bs-navbar-brand-font-size: 1.25rem;
+  --bs-navbar-brand-font-size: 1.15rem;
   --bs-navbar-brand-color: rgba(0, 0, 0, 0.9);
   --bs-navbar-brand-hover-color: rgba(0, 0, 0, 0.9);
   --bs-navbar-nav-link-padding-x: 0.5rem;
@@ -13354,10 +13354,11 @@ html {
 
 .profile .profile-img {
   height: 80vw;
-  max-height: 45rem;
+  max-height: 30rem;
   position: absolute;
   bottom: 0;
   left: 50%;
+  top: 0;
   transform: translateX(-50%);
 }
 
